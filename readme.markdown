@@ -2,6 +2,7 @@
 
 bare-bones [react](https://facebook.github.io/react/) starter
 using [babelify](https://npmjs.com/package/babelify) for es6 and jsx
+and [livereactload](https://github.com/milankinen/livereactload) to reload changes automatically
 under [browserify](http://browserify.org)/[watchify](https://npmjs.com/package/watchify)
 with [npm run scripts](http://substack.net/task_automation_with_npm_run)
 
@@ -13,6 +14,7 @@ forked from [react-starter](https://github.com/substack/react-starter)
 
 ```
 $ npm run watch &
+$ npm run reload &
 $ npm start
 ```
 
@@ -20,6 +22,7 @@ $ npm start
 
 * `npm run build` - build for production
 * `npm run watch` - automatically recompile during development
+* `npm run reload` - automatically reload js in the browser during development
 * `npm start` - start a static development web server
 
 # starter code
